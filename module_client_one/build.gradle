@@ -6,7 +6,6 @@ android {
 
 
     compileSdkVersion rootProject.compileSdkVersion
-    buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
         applicationId "com.jack.clientdome"

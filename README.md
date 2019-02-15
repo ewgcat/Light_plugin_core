@@ -1,8 +1,8 @@
-# Jack-Tools  V0.0.1
+# light_plugin_core  V0.0.1
 
 #### 项目结构：
 
-lib_jacklee_tools: 插件化核心功能library
+lib_light_plugin_core: 插件化核心功能library
 
 module_host_main：宿主工程主工程，负责加载部署apk
 
@@ -29,3 +29,4 @@ module_client_two:测试业务apk 2
 
 
 
+使用说明：
