@@ -1,18 +1,16 @@
 # Jack-Tools  V0.0.1
 
-#### 项目介绍：
+#### 项目结构：
 
-jacklee-tools 是一款基于代理模式的动态部署apk热更新框架、插件化开发框架；
+lib_jacklee_tools: 插件化核心功能library
 
-android api 升级至 28 版本
+module_host_main：宿主工程主工程，负责加载部署apk
 
-apk plugin framework，
+module_client_one:测试业务apk 1
 
-apk plugin theme manager
+module_client_two:测试业务apk 2
 
-apk plugin font size manager
 
-	
 
 #### 功能与特性：
 
@@ -30,13 +28,4 @@ apk plugin font size manager
 
 
 
-#### 项目结构：
-
-lib_jacklee_tools: 插件化核心功能library
-
-module_host_main：宿主工程主工程，负责加载部署apk
-
-module_client_one:测试业务apk 1
-
-module_client_two:测试业务apk 2
 
