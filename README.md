@@ -30,3 +30,14 @@ module_client_two:测试业务apk 2
 
 
 使用说明：
+1.AndroidManifest.xml
+  <!--必须设置root_class-->
+        <meta-data
+            android:name="root_class"
+            android:value="com.jack.clientdome.TestClass" />
+
+        <meta-data
+            android:name="two_class"
+            android:value="com.jack.clientdome.TwoClass" />
+2.跳转
+         JackUtils.goActivity(activity,"first_apk", "two_class");

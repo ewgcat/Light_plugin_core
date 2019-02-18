@@ -6,7 +6,8 @@ import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
 
-import com.jack.jackleefragmenthotpatch.R;
+
+import com.jack.jacklee.R;
 
 import dalvik.system.DexClassLoader;
 
